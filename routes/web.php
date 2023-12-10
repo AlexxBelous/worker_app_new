@@ -17,4 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/workers', function () {
+    return "This is workers from routes";
+});
 
